@@ -1,3 +1,4 @@
+console.log("hello");
 var arrChosenVal = [];
 var currPlayerScore = 0, currDealerScore = 0;
 
