@@ -2,7 +2,7 @@ console.log("hello");
 var arrChosenVal = [];
 var currPlayerScore = 0, currDealerScore = 0;
 
-function chooseRandNumber(max = 52, min = 1){
+functio chooseRandNumber(max = 52, min = 1){
 	var rand = ((Math.random() * max - min) + min);
 	rand = Math.ceil(rand);
 	if(arrChosenVal.includes(rand)){
